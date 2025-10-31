@@ -1,0 +1,20 @@
+*{
+    background-color: antiquewhite;
+}
+
+a{
+    color: blue;
+
+}
+.h1-text{
+    background-color: antiquewhite;
+    color: blue;
+    text-align: center;
+}
+img{
+    height: auto;
+    width: 500px;
+}
+.lasagna-pic{
+    width:600px;
+}
