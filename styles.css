@@ -2,7 +2,8 @@
     background-color: antiquewhite;
     font-family: "Libre Baskerville", serif;
     font-weight: 1000;
-    margin: 10px;
+    margin: 8px
+    
 }
 a{
     padding: auto;
@@ -22,12 +23,61 @@ img{
     width:600px;
 }
 .main-div{
-    padding:5px;
-    border: 1px solid black;
-    padding: 20px;
+    /*border: 1px solid black;*/
+    padding: 10px;
     text-align: center;
     font-weight: 400;
 }
 li{
     padding:5px
+}
+
+#main-content-container{
+    display: grid;
+    grid-template-columns: 1fr ; 
+    grid-template-rows: 1fr 1fr; 
+}
+.item-main{
+    grid-area: span;
+    padding: 50px;
+    text-align: center;
+    
+}
+.test{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.content-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap:20px ;
+}
+
+.item-one{
+    border: 2px hidden white;
+    grid-row: 1 / 3;
+    grid-column: 1/3;
+
+}
+.item-two{
+    border: 10px hidden white;
+    grid-area: auto;
+    padding: 5px;
+}
+.item-three{
+    border: 10px hidden white;
+    grid-area:auto;
+}
+
+.item-one:hover, .item-two:hover, .item-three:hover{
+    translate: 4px -5px;
+}
+
+.btn{
+
+    padding: 10px;
+    border: 1px hidden black
 }
