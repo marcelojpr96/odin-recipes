@@ -1,8 +1,11 @@
 *{
     background-color: antiquewhite;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 1000;
+    margin: 10px;
 }
-
 a{
+    padding: auto;
     color: blue;
 
 }
@@ -17,4 +20,14 @@ img{
 }
 .lasagna-pic{
     width:600px;
+}
+.main-div{
+    padding:5px;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    font-weight: 400;
+}
+li{
+    padding:5px
 }
